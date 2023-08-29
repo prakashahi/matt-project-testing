@@ -102,11 +102,9 @@ const initInspirationGrid = () => {
     let lastLoadedIndex = 0;
 
     // Function to load products
-    const loadProduct = (startIndex, endIndex) => {
+    const loadProduct = (startIndex, endIndex, productsPerBatch) => {
         loadButton.closest(".content-loader").classList.remove("loading");
         const productsToLoad = inspirationProducts.slice(startIndex, endIndex);
-
-        console.log(productsToLoad, lastLoadedIndex)
 
         const createTooltip = (tooltip) => {
             const { position, title, description, price, link: tooltipLink } = tooltip;
@@ -154,17 +152,16 @@ const initInspirationGrid = () => {
 
         if (endIndex >= inspirationProducts.length) {
             loadButton.disabled = true;
-            loadButton.innerText = "geen producten meer om te laden";
+            loadButton.innerText = "Geen producten meer om te laden";
         }
 
-        lastLoadedIndex += productsInitialBatch;
+        lastLoadedIndex += productsPerBatch;
     }
-
-    loadProduct(lastLoadedIndex, lastLoadedIndex + productsInitialBatch);
-
+    
+    loadProduct(lastLoadedIndex, lastLoadedIndex + productsInitialBatch, productsInitialBatch);
     loadButton.addEventListener("click", () => {
         loadButton.closest(".content-loader").classList.add("loading");
-        setTimeout(() => loadProduct(lastLoadedIndex, lastLoadedIndex + productsPerBatch), 1500);
+        setTimeout(() => loadProduct(lastLoadedIndex, lastLoadedIndex + productsPerBatch, productsPerBatch), 1500);
     });
 }
 

@@ -1,52 +1,52 @@
 // List of room product items
 const roomProducts = [
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-1.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-1.jpg",
         link: "#",
         label: "Slaapkamer"
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-2.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-2.jpg",
         link: "#",
         label: "Hal"
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-3.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-3.jpg",
         link: "#",
         label: "Baby & kinderkamer"
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-4.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-4.jpg",
         link: "#",
         label: "Thuiswerkplek"
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-5.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-5.jpg",
         link: "#",
         label: "Woonkamer"
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-6.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-6.jpg",
         link: "#",
         label: "Badkamer"
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-7.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-7.jpg",
         link: "#",
         label: "Keuken"
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-8.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-8.jpg",
         link: "#",
         label: "Eetkamer"
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-9.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-9.jpg",
         link: "#",
         label: "Wasruimte & garage"
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/slider-images/img-10.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/slider-images/img-10.jpg",
         link: "#",
         label: "Tuin & terras"
     }
@@ -55,7 +55,7 @@ const roomProducts = [
 // List of inspiration product items
 const inspirationProducts = [
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-1.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-1.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -97,7 +97,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-2.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-2.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -132,7 +132,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-3.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-3.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -153,7 +153,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-4.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-4.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -195,7 +195,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-5.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-5.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -237,7 +237,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-6.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-6.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -265,7 +265,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-7.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-7.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -286,7 +286,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-8.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-8.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -300,7 +300,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-9.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-9.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -349,7 +349,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-10.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-10.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -363,7 +363,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-11.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-11.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -377,7 +377,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-12.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-12.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -412,7 +412,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-13.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-13.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -433,7 +433,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-14.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-14.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -468,7 +468,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-15.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-15.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -496,7 +496,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-16.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-16.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -524,7 +524,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-17.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-17.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -561,7 +561,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-18.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-18.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -596,7 +596,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-19.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-19.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -631,7 +631,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-20.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-20.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -652,7 +652,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-21.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-21.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -694,7 +694,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-22.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-22.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -708,7 +708,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-23.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-23.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -743,7 +743,7 @@ const inspirationProducts = [
         ],
     },
     {
-        imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-24.jpg",
+        imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-24.jpg",
         author: "John Doe",
         link: "#",
         tooltips: [
@@ -771,7 +771,7 @@ const inspirationProducts = [
         ],
     },
     // {
-    //     imageSrc: "https://github.com/prakashahi/matt-project-testing/assets/grid-images/img-25.jpg",
+    //     imageSrc: "https://prakashahi.github.io/matt-project-testing/assets/grid-images/img-25.jpg",
     //     author: "John Doe",
     //     link: "#",
     //     tooltips: [

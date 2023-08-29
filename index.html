@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Project</title>
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/products.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <main class="main-container">
+         <!-- Room slider section -->
+        <section class="room-slider">
+            <h2 class="section-title">Ruimtes</h2>
+            <div class="carousel-container">
+                <button class="carousel-button" id="prev-slide">
+                    <span class="material-symbols-rounded">chevron_left</span>
+                </button>
+                <ul class="carousel-list"></ul>
+                <button class="carousel-button" id="next-slide">
+                    <span class="material-symbols-rounded">chevron_right</span>
+                </button>
+            </div>
+            <div class="carousel-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Room slider section -->
+        <section class="inspiration-section">
+            <h2 class="section-title">Meer ideeën en inspiratie</h2>
+            <div class="inspiration-grid">
+                <ul class="product-grid"></ul>
+                <div class="content-loader">
+                    <button class="load-button">
+                        <span>6 meer tonen</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

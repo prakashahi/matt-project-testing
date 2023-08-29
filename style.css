@@ -1,0 +1,507 @@
+/* Importing Google font - Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.main-container section {
+    width: 95%;
+    margin: 50px auto;
+}
+
+/* Room slider section styling */
+
+.room-slider .section-title {
+    font-size: 1.5rem;
+}
+
+.room-slider .carousel-container {
+    position: relative;
+    margin: 30px 0 25px;
+}
+
+.room-slider .carousel-button {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    background: #000;
+    height: 40px;
+    width: 40px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.room-slider .carousel-button:hover {
+    background: #333;
+}
+
+.room-slider .carousel-button#prev-slide {
+    left: -20px;
+    display: none;
+}
+
+.room-slider .carousel-button#next-slide {
+    right: -20px;
+}
+
+.room-slider .carousel-button span {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.room-slider .carousel-list {
+    display: flex;
+    max-width: 100%;
+    gap: 20px;
+    position: relative;
+    font-size: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.room-slider .carousel-list::-webkit-scrollbar {
+    display: none;
+}
+
+.room-slider .carousel-list .carousel-card {
+    height: 310px;
+    list-style: none;
+    position: relative;
+    width: calc(309px * (3 / 4));
+}
+
+.room-slider .carousel-card .card-image {
+    object-fit: cover;
+    height: 100%;
+}
+
+.room-slider .carousel-card .card-button {
+    position: absolute;
+    left: 50%;
+    bottom: 13%;
+    z-index: 5;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: #de2530;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transform: translateX(-50%);
+}
+
+.room-slider .carousel-card .card-button:hover {
+    background: #e44e58;
+}
+
+.room-slider .carousel-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    overflow: hidden;
+}
+
+.room-slider .carousel-scrollbar .scrollbar-track {
+    position: relative;
+    background: #ccc;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+}
+
+.room-slider .carousel-scrollbar:hover .scrollbar-track {
+    height: 4px;
+}
+
+.room-slider .carousel-scrollbar .scrollbar-thumb {
+    position: absolute;
+    background: #333;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    cursor: grab;
+    border-radius: inherit;
+}
+
+.room-slider .carousel-scrollbar .scrollbar-thumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.room-slider .carousel-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+/* Inspiration grid section styling */
+
+.inspiration-section .section-title {
+    font-size: 1.5rem;
+}
+
+.inspiration-section .inspiration-grid {
+    margin: 30px 0;
+}
+
+.inspiration-section .inspiration-grid .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 1.25rem;
+    grid-auto-rows: 1fr;
+}
+
+.inspiration-section .product-grid .product-card {
+    list-style: none;
+    grid-row: span 4;
+    grid-column: span 1;
+    position: relative;
+    background: #f2f2f2;
+    border-radius: 8px;
+}
+
+.inspiration-section .product-grid .product-card:nth-child(2) {
+    grid-row: span 3;
+    height: 0;
+    padding-top: 100%;
+}
+
+.inspiration-section .product-card .product-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.inspiration-section .product-card .product-info {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    height: 36px;
+    overflow: hidden;
+    width: 36px;
+    background: #fff;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.inspiration-section .product-card .product-info:hover {
+    width: 110px;
+}
+
+.inspiration-section .product-card .product-info .author-name {
+    color: rgb(17, 17, 17);
+    font-size: 0.8rem;
+    font-weight: 700;
+    opacity: 0;
+    padding-right: 7px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.inspiration-section .product-card .product-info:hover .author-name {
+    opacity: 0.8;
+    transition: 0.1s 0.15s ease;
+}
+
+.inspiration-section .product-card .product-info .info-icon {
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+    padding-right: 6px;
+}
+
+.inspiration-section .product-meta .product-dot {
+    position: absolute;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s ease;
+}
+
+.inspiration-section .product-card:hover .product-dot {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.inspiration-section .product-card:hover .product-dot:hover {
+    z-index: 20;
+}
+
+.inspiration-section .product-meta .meta-link {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid transparent;
+    background: rgba(17, 17, 17, 0.4);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.inspiration-section .product-meta .product-dot:hover .meta-link {
+    background: rgba(17, 17, 17, 0.55);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.inspiration-section .product-meta .meta-link::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    display: block;
+}
+
+.inspiration-section .product-meta .meta-link::after {
+    content: "";
+    position: relative;
+    display: block;
+    background: #fff;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 64px;
+    transition: 0.3s ease;
+    box-shadow: 0 1px 4px rgba(17, 17, 17, 0.55);
+}
+
+.inspiration-section .product-meta .product-dot:hover .meta-link::after  {
+    transform: scale(0.677);
+}
+
+.inspiration-section .product-meta .product-tooltip {
+    position: absolute;
+    min-width: 8.4375rem;
+    display: flex;
+    background: #fff;
+    color: #000;
+    visibility: hidden;
+    transform: translateY(-50%) translateX(-105%);
+    box-shadow: 0 1px 4px rgba(17, 17, 17, 0.55);
+}
+
+.inspiration-section .product-card:nth-child(1) .product-meta .product-tooltip,
+.inspiration-section .product-card:nth-child(5) .product-meta .product-tooltip,
+.inspiration-section .product-card:nth-child(8) .product-meta .product-tooltip,
+.inspiration-section .product-card:nth-child(11) .product-meta .product-tooltip,
+.inspiration-section .product-card:nth-child(14) .product-meta .product-tooltip,
+.inspiration-section .product-card:nth-child(17) .product-meta .product-tooltip,
+.inspiration-section .product-card:nth-child(20) .product-meta .product-tooltip,
+.inspiration-section .product-card:nth-child(23) .product-meta .product-tooltip {
+    transform: translateY(-50%) translateX(27%);
+}
+
+.inspiration-section .product-meta .product-dot:hover .product-tooltip {
+    visibility: visible;
+}
+
+.inspiration-section .product-tooltip .tooltip-content {
+    padding: 10px;
+    width: 100%;
+}
+
+.inspiration-section .product-tooltip .tooltip-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.571;
+    text-transform: uppercase;
+}
+
+.inspiration-section .product-tooltip .tooltip-category {
+    color: rgb(72, 72, 72);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.571;
+}
+
+.inspiration-section .product-tooltip .tooltip-price {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.1875;
+    display: flex;
+}
+
+.inspiration-section .product-tooltip .tooltip-price span {
+    font-size: 0.6875rem;
+    margin-top: 5px;
+    display: block;
+    margin-right: 3px;
+}
+
+.inspiration-section .product-tooltip .tooltip-arrow {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: #de2530;
+    border-left: 1px solid rgb(223, 223, 223);
+}
+
+.inspiration-section .product-tooltip .tooltip-arrow .arrow-icon {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.inspiration-grid .content-loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px 0;
+}
+
+.inspiration-grid .load-button {
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 25px;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.inspiration-grid .load-button[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.inspiration-grid .load-button:active {
+    transform: scale(0.97);
+}
+
+.inspiration-grid .load-button:hover {
+    background: #333;
+}
+
+.inspiration-grid .content-loader.loading .load-button {
+    height: 42px;
+    width: 135px;
+    pointer-events: none;
+}
+
+.inspiration-grid .content-loader.loading .load-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -180%);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #fff;
+    animation: bounce 0.7s linear infinite;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translate(-50%, 80%);
+    }
+}
+
+.inspiration-section .content-loader.loading .load-button span {
+    display: none;
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    .main-container section {
+        margin: 30px auto;
+        overflow-x: hidden;
+    }
+
+    .room-slider .section-title,
+    .inspiration-section .section-title {
+        font-size: 1.2rem;
+    }
+
+    .room-slider .carousel-container,
+    .inspiration-section .inspiration-grid {
+        margin: 20px 0;
+    }
+
+    .room-slider .carousel-button {
+        display: none!important;
+    }
+
+    .room-slider .carousel-list {
+        scroll-snap-type: x mandatory;
+    }
+    
+    .room-slider .carousel-card {
+        scroll-snap-align: start;
+    }
+
+    .room-slider .carousel-scrollbar .scrollbar-thumb {
+        width: 20%;
+    }
+
+    .inspiration-section .inspiration-grid .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0.75rem;
+        grid-row-gap: 0.75rem;
+    }
+
+    .inspiration-section .product-meta .product-dot {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .inspiration-section .product-card .product-meta .product-tooltip {
+        display: none;
+    }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .room-slider .carousel-button {
+        display: none!important;
+    }
+
+    .room-slider .carousel-list {
+        scroll-snap-type: x mandatory;
+    }
+    
+    .room-slider .carousel-card {
+        scroll-snap-align: start;
+    }
+}
